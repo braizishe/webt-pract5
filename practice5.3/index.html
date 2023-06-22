@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Математичні функції й константи</title>
+</head>
+<body>
+  <h1>КОНСТАНТИ</h1>
+  <ul>
+    <li>Значення константи е = <script>document.write(Math.E);</script></li>
+    <li>Значення константи π = <script>document.write(Math.PI);</script></li>
+    <li>Десятковий логарифм постійної Ейлера (е) = <script>document.write(Math.LN10);</script></li>
+    <li>Двійковий логарифм постійної Ейлера (е) = <script>document.write(Math.LN2);</script></li>
+    <li>Натуральний логарифм числа 10 = <script>document.write(Math.log10(10));</script></li>
+    <li>Натуральний логарифм числа 2 = <script>document.write(Math.log(2));</script></li>
+    <li>Корінь квадратний із двох = <script>document.write(Math.SQRT2);</script></li>
+    <li>Корінь квадратний з однієї другої = <script>document.write(Math.SQRT1_2);</script></li>
+  </ul>
+
+  <h1>ФУНКЦІЇ</h1>
+  <ol>
+    <li>Результат зведення е в степінь 2: y = <script>document.write(Math.E*Math.E);</script></li>
+    <li>Натуральний логарифм від e^2: y = <script>document.write(Math.log(Math.E*Math.E));</script></li>
+    <li>Результат обчислення десяткового логарифма від числа 100: y = <script>document.write(Math.log10(100));</script></li>
+    <li>Результат обчислення двійкового логарифма від числа 8: y = <script>document.write(Math.log2(8));</script></li>
+    <li>Тангенс 45 градусів (з округленням): = <script>document.write((Math.tan(Math.PI / 4)).toFixed(0));</script></li>
+  </ol>
+
+  <h1>ГЕНЕРАТОР ВИПАДКОВИХ ЧИСЕЛ</h1>
+  <p>Формування випадкових чисел в інтервалі [0;1]:</p>
+  <script>
+    var randomNum = Math.random(); // Генерує випадкове число від 0 до 1
+    document.write("Випадкове число: " + randomNum);
+  </script>
+</body>
+</html>
